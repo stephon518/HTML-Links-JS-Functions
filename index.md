@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+**Links**
 
-You can use the [editor on GitHub](https://github.com/stephon518/HTML-Links-JS-Functions/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Links are created using the <a> element.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+X The <a> element uses the href attribute to indicate
 
-### Markdown
+the page you are linking to.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+X If you are linking to a page within your own site, it is best to use relative links rather than qualified URLs.
 
-```markdown
-Syntax highlighted code block
+X You can create links to open email programs with an email address in the "to" field.
 
-# Header 1
-## Header 2
-### Header 3
+X You can use the id attribute to target elements within a page that can be linked to.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+**Layout**
 
-[Link](url) and ![Image](src)
-```
+ <div> elements are often used as containing elements to group together sections of a page.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+X Browsers display pages in normal flow unless you specify relative, absolute, or fixed positioning.
 
-### Jekyll Themes
+X The float property moves content to the left or right of the page and can be used to create multi-column layouts. (Floated items require a defined width.)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephon518/HTML-Links-JS-Functions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+X Pages can be fixed width or liquid (stretchy) layouts.
 
-### Support or Contact
+X Designers keep pages within 960-1000 pixels wide, and indicate what the site is about within the top 600 pixels (to demonstrate its relevance without scrolling).
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+X Grids help create professional and flexible designs. X CSS Frameworks provide rules for common tasks. X You can include multiple CSS files in one page.
